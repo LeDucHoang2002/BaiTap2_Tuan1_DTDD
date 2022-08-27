@@ -143,43 +143,118 @@
 
             <LinearLayout
                 android:layout_width="300dp"
-                android:layout_height="197dp"
+                android:layout_height="179dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="45dp"
                 android:background="@drawable/vien"
                 android:orientation="vertical">
 
-                <EditText
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:ems="15"
-                    android:hint="Email"
-                    android:textColor="#07DAC6"
-                    android:textSize="20dp" />
+                    android:layout_height="40dp">
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:ems="15"
-                    android:hint="Phone"
-                    android:textColor="#07DAC6"
-                    android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginRight="5dp"
+                        android:hint="Email :"
+                        android:textColorHint="#0BA5A4"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:ems="15"
-                    android:hint="Skype"
-                    android:textColor="#07DAC6"
-                    android:textSize="20dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:hint="LeDucHoang@gmail.com"
+                        android:textColorHint="#0BA5A4"
+                        android:textSize="18dp" />
+                </LinearLayout>
 
-                <EditText
+                <View
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:ems="15"
-                    android:hint="Web"
-                    android:textColor="#07DAC6"
-                    android:textSize="20dp" />
+                    android:layout_height="2dp"
+                    android:background="#4FF1E2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginRight="5dp"
+                        android:hint="Phone :"
+                        android:textColorHint="#0BA5A4"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:hint="2050531200150"
+                        android:textColorHint="#0BA5A4"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#4FF1E2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginRight="5dp"
+                        android:hint="Skype :"
+                        android:textColorHint="#0BA5A4"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:hint="LTDT01"
+                        android:textColorHint="#0BA5A4"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#4FF1E2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginRight="5dp"
+                        android:hint="Web :"
+                        android:textColorHint="#0BA5A4"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:hint="cssauthor.com/"
+                        android:textColorHint="#0BA5A4"
+                        android:textSize="18dp" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
